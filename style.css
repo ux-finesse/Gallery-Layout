@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 90%;
+    margin: 10rem auto;
+}
+
+/* Top Images */
+
+.top{
+    width: 100%;
+    display: flex;
+}
+
+.top-img{
+    position: relative;
+}
+
+.img-1{
+    display: block;
+    width: 100%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.img-2{
+    display: block;
+    width: 100%;
+    height: 22rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.img-3{
+    display: block;
+    width: 100%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.top-img:hover > .img-1{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.top-img:hover > .img-2{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.top-img:hover > .img-3{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.zoom-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    align-items: center;
+}
+
+.top-img:hover > .zoom-1 {
+    opacity: 1;
+}
+
+
+
+/* Bottom Images */
+
+.bottom{
+    width: 100%;
+    display: flex;
+}
+
+.bottom-img{
+    position: relative;
+}
+
+.img-4{
+    display: block;
+    width: 100%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.img-5{
+    display: block;
+    width: 100%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.img-6{
+    display: block;
+    width: 100%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.img-7{
+    display: block;
+    width: 100%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-right-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.bottom-img:hover > .img-4{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.bottom-img:hover > .img-5{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.bottom-img:hover > .img-6{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.bottom-img:hover > .img-7{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.bottom-img:hover > .zoom-1 {
+    opacity: 1;
+}
